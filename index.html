@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Lista de Contatos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Lista de Contatos</h1>
+    <div class="wrapper", id="contacts">  
+        <ol class="Contatos">
+            <li id="template">
+                <div class="contact">
+                    <h2 class="name">Contato Teste</h2>
+                    <h2 class="phone-number">🕻 +55 31 9999-9999</h2>
+                    <button class="edit">✎</button>
+                    <button class="delete">X</button>
+                </div>
+            </li>
+        </ol>
+    </div>
+
+    <div class="wrapper">
+        <label for="name">Nome:</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <label for="tel">Telefone:</label>
+        <input type="tel" name="tel" id="tel">
+        <br>
+        <br>
+        <button id="create">Criar Contato</button>
+    </div>
+
+    <div class="wrapper hide", id="edit-window">
+        <label for="name">Nome:</label>
+        <input type="text" name="name" id="edit-name">
+        <br>
+        <label for="tel">Telefone:</label>
+        <input type="tel" name="tel" id="edit-tel">
+        <br>
+        <br>
+        <button id="conclude">Concluír</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

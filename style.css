@@ -1,0 +1,96 @@
+body {
+    background-color: #040404;
+    color: aliceblue;
+}
+
+#contacts {
+    border-radius: 10px;
+    border-color: aliceblue;
+    border-width: 5px;
+    position: relative;
+    height: 800px;
+    width: 500px;
+    background-color: azure;
+    overflow: scroll;
+    scrollbar-color: #060606;
+    display: inline-block;
+}
+
+#edit-window {
+    border-radius: 10px;
+    border-color: aliceblue;
+    border-width: 5px;
+    position: relative;
+    background-color: azure;
+    display: inline-block;
+    padding: 30px;
+    color: #060606;
+    margin-left: 550px;
+    bottom: 1021px;
+    transition: .3s;
+}
+
+.wrapper {
+    border-radius: 10px;
+    border-color: aliceblue;
+    border-width: 5px;
+    position: relative;
+    margin: 30px;
+    height: fit-content;
+    width: fit-content;
+}
+
+li {
+    color: #060606;
+    font-family: monospace;
+}
+
+.contact {
+    width: 450px;
+    height: 50px;
+    background-color: #060606;
+    border-radius: 5px;
+    position: relative;
+    color: aliceblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    padding-left: 5px;
+}
+
+.edit {
+    margin-right: 10px;
+    height: 23px;
+    width: 23px;
+    margin-top: 13px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.delete {
+    margin-right: 10px;
+    height: 23px;
+    width: 23px;
+    margin-top: 13px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#template {
+    display: none;
+}
+
+.hide {
+    opacity: 0;
+}
+
+.hide button {
+    height: 0px;
+    width: 0px;
+    display: none;
+}
+
